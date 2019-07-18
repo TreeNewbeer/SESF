@@ -1,0 +1,20 @@
+*build
+
+#stm32cubemx config file
+.ioc
+
+# eclipse setting
+.settings
+
+# MacOS directory files
+.DS_Store
+
+
+# VS Code Settings
+.vscode/
+
+# Clion Settings
+*.idea/
+
+# Clion build directory
+*cmake-build-debug

@@ -1,0 +1,30 @@
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_crc.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_dma2d.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_ll_fmc.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_sdram.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_i2c.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_i2c_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_ltdc.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_ltdc_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_dsi.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_spi.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_tim.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_tim_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_uart.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_rcc.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_rcc_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_flash.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_flash_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_flash_ramfunc.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_gpio.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_dma_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_dma.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_pwr.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_pwr_ex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal_cortex.c
+STM_HAL_SRCS += $(STM_HAL_DIR)/Src/stm32f4xx_hal.c
+
+VPATH += :$(STM_HAL_DIR)
+
+STM_HAL_INCS += "-I$(STM_HAL_DIR)/Inc"
+STM_HAL_INCS += "-I$(STM_HAL_DIR)/Legacy"
