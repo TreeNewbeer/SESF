@@ -3,6 +3,7 @@ note
 
 #stm32cubemx config file
 .ioc
+.mxproject
 
 # eclipse setting
 .settings
