@@ -13,11 +13,10 @@ OPT = -Og
 #######################################
 # Load  Compontent
 #######################################
-RTOS_DIR = Component/FreeRTOS
-include $(RTOS_DIR)/freertos.mk
+PORT_DIR = Component/port
 
-LVGL_DIR = Component
-include $(LVGL_DIR)/lvgl/lvgl.mk
+include $(PORT_DIR)/freertos/freertos.mk
+include $(PORT_DIR)/lvgl/lvgl.mk
 
 PER_DIR = Component/Peripheral
 include $(PER_DIR)/peripheral.mk
@@ -51,7 +50,7 @@ C_SOURCES += $(STM_HAL_SRCS)
 C_SOURCES += $(PER_SRCS)
 C_SOURCES += $(BSP_SRCS)
 C_SOURCES += $(RTOS_SRCS)
-C_SOURCES += $(CSRCS)
+C_SOURCES += $(LVGL_SRCS)
 C_SOURCES += $(APP_SRCS)
 
 # ASM sources
