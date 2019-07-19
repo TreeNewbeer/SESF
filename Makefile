@@ -1,4 +1,4 @@
-TARGET = stm32-framework
+TARGET = SESF
 BUILD_DIR = build
 
 
