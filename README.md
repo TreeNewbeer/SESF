@@ -88,6 +88,6 @@ _SESF is a simple embeded software developing environment framework about stm32 
 
 ## Contributing
 
-![Stars](https://img.shields.io/github/stars/Genius-SexyBoy/SESF.svg?style=social)
+![Stars](https://img.shields.io/github/stars/Genius-SexyBoy/SESF.svg?style=social&label=Star&maxAge=2592000)
 
 If you are pleased with the project, give me _Star_ rather than coffee and your code:)
